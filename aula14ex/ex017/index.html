@@ -9,15 +9,23 @@
 <body>
     <header>
         <h1>
-            Título
+            Tabuada
         </h1>
     </header>
     <section>
         <div>
-            Testando
+            <p>
+            <label for="inumero">Número:</label>
+            <input type="number" name="numero" id="inumero" required placeholder="Digite aqui">
+            <input type="button" value="Gerar tabuada" onclick="tabuada()">
+            </p>
         </div>
         <div>
-
+            <select name="tabuada" id="seltab" size="10">
+                <option>
+                    Digite um número acima
+                </option>
+            </select>
         </div>
     </section>
     <footer>
